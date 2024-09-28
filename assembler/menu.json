@@ -1,0 +1,106 @@
+{
+	"File" : {
+			"type"	: "menu",
+			"icon"	: null,
+			"items"	: {
+				
+				
+				"New Text File" : {
+							"type" : "action", 
+                            "icon" : null 
+							
+				},
+				
+
+				"sep0" : {"type"  : "sep"},
+
+				"Open File" : {
+					"type" : "menu",
+					
+					"icon" : null
+				},
+
+				"sep1" : {"type"  : "sep"},
+				"Save" : {
+							"type" : "action",
+							
+							"icon" : null
+				},
+				"Save as" : {
+							"type" : "action",
+							
+							"icon" : null
+				},
+
+				"sep2" : {"type"  : "sep"},
+				"Exit" : {
+							"type" : "action",
+							
+							"icon" : null
+				}
+			
+			}
+	},
+	"Edit" : {
+		"type"	: "menu",
+		"icon"	: null,
+		"items"	: {
+			
+			"Undo" : {
+				"type" : "action",
+				
+				"icon" : null
+			},
+
+			"Redo" : {
+				"type" : "action",
+				
+				"icon" : null
+			},
+
+			"sep0" : {"type"  : "sep"},
+
+			"Cut" : {
+						"type" : "action",
+						
+						"icon" : null
+			},
+			
+			"Copy" : {
+						"type" : "action",
+						
+						"icon" : null,
+						
+						"checkable" : true 
+			},
+			"Paste" : {
+						"type" : "action",
+						
+						"icon" : null
+			},
+
+			"sep1" : {"type"  : "sep"},
+
+			"Delete" : {
+						"type" : "action",
+						
+						"icon" : null
+			},
+
+			"sep3" : {"type"  : "sep"},
+
+			"Find" : {
+						"type" : "action",
+						
+						"icon" : null
+			},
+			
+			"Replace" : {
+				
+						"type" : "action",
+						
+						"icon" : null
+		    }
+		}
+	}
+}
