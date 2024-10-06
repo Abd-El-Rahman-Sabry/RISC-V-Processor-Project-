@@ -1,0 +1,203 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/materials/my digital projects/designs projects/CA processor/RISC-V-Processor-Project-/src
+vadder
+Z1 !s110 1727725768
+!i10b 1
+!s100 MlMH:]D`5ekJB48g5i0RN2
+IzPdZOdWA9>DfjIoLUoY0z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1727722090
+8adder.v
+Fadder.v
+L0 7
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1727725768.000000
+!s107 SP.V|PC.v|parameters.v|mux_4x1.v|mux_2x1.v|instruction_mem.v|HLT.v|EPC.v|adder.v|
+Z5 !s90 adder.v|EPC.v|HLT.v|instruction_mem.v|mux_2x1.v|mux_4x1.v|parameters.v|PC.v|SP.V|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vEPC
+R1
+!i10b 1
+!s100 bOXd?mG`KaZMg:oK_V@D=1
+I>Cz`fbm7XFWcG5aNBRln53
+R2
+R0
+w1727725708
+8EPC.v
+FEPC.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 SP.V|PC.v|parameters.v|mux_4x1.v|mux_2x1.v|instruction_mem.v|HLT.v|EPC.v|adder.v|
+R5
+!i113 0
+R6
+R7
+n@e@p@c
+vHLT
+R1
+!i10b 1
+!s100 EnQI=7<4CnS:kLKUdC8940
+IIL=8C:0_Zz1eQeRlz:?1B2
+R2
+R0
+w1727724410
+8HLT.v
+FHLT.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+n@h@l@t
+vinstuction_memory
+R1
+!i10b 1
+!s100 n^S5cbRk9nc[h>fG4XJ:S0
+IEgA]XZSDIHk=4>FOTC>^K3
+R2
+R0
+w1727721201
+8instruction_mem.v
+Finstruction_mem.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vmux_2x1
+R1
+!i10b 1
+!s100 =n_:IUMji[A@i:8AU1n:E1
+I6LlXE@2`NFRFzAPFa6@nS2
+R2
+R0
+w1727722266
+8mux_2x1.v
+Fmux_2x1.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vmux_4x1
+R1
+!i10b 1
+!s100 d`M1E_>6mGCVJ<Jd[SYPC3
+I_cW4J=HP`53SkIKlB1Fd]0
+R2
+R0
+w1727723184
+8mux_4x1.v
+Fmux_4x1.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vpc
+!s110 1727721408
+!i10b 1
+!s100 B@dIMloIfVTXnNJcQnX3i3
+IS]4^lF2oL]JIVJU:VmQ6o0
+R2
+R0
+w1727721406
+8pc.v
+Fpc.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1727721408.000000
+!s107 parameters.v|pc.v|
+!s90 pc.v|
+!i113 0
+R6
+R7
+vPC
+R1
+!i10b 1
+!s100 zc=dL1`N?UZ=VXo1dAHlD1
+In^Oh<o03@TZ^`3Ojj^JJV2
+R2
+R0
+w1727725766
+8PC.v
+FPC.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+n@p@c
+vSP
+R1
+!i10b 1
+!s100 3RN9hZ`7dd5FhPViSNYL80
+Il>LAIgMY_f7Y`X6l7PJe=1
+R2
+R0
+w1727725731
+8SP.V
+FSP.V
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+n@s@p
