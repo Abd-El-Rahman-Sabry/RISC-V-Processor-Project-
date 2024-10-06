@@ -13,7 +13,7 @@ module mux_2x1 #(
     output wire [width-1:0] out
 );
     
-    assign out = control? in1 : in2;
+    assign out = control? in2 : in1;
 
 endmodule
 

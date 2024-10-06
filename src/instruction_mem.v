@@ -10,8 +10,6 @@ module instuction_memory #(parameter memory_width = `INSTRUCTION_WIDTH, memory_d
     input  wire                              clk,
     input  wire                              rstn,
     input  wire  [$clog2(memory_depth)-1:0]  adress,
-    input  wire                              re,   
-    input  wire   [memory_width-1:0]         data_in,
     output reg  [memory_width-1:0]           data_out
 );
 
@@ -28,11 +26,7 @@ always @(posedge clk or negedge rstn) begin
         end
     end else 
     begin 
-        if (re) begin
-            data_out <= internal_mem[adress];
-        end else begin
-            internal_mem[adress] <= data_in;
-        end
+        data_out <= internal_mem[adress];
     end
 end
 
