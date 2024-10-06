@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/materials/my digital projects/designs projects/CA processor/RISC-V-Processor-Project-/src
 vadder
-Z1 !s110 1727725768
+Z1 !s110 1728223150
 !i10b 1
 !s100 MlMH:]D`5ekJB48g5i0RN2
 IzPdZOdWA9>DfjIoLUoY0z3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1727722090
+w1727900473
 8adder.v
 Fadder.v
 L0 7
@@ -23,12 +23,33 @@ Z3 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z4 !s108 1727725768.000000
-!s107 SP.V|PC.v|parameters.v|mux_4x1.v|mux_2x1.v|instruction_mem.v|HLT.v|EPC.v|adder.v|
-Z5 !s90 adder.v|EPC.v|HLT.v|instruction_mem.v|mux_2x1.v|mux_4x1.v|parameters.v|PC.v|SP.V|
+Z4 !s108 1728223149.000000
+!s107 SP.V|PC.v|parameters.v|mux_4x1.v|mux_2x1.v|memory_stage.v|instruction_mem.v|HLT.v|fetch_stage.v|exception_detector.v|EPC.v|data_memory.v|adder.v|
+Z5 !s90 adder.v|data_memory.v|EPC.v|exception_detector.v|fetch_stage.v|HLT.v|instruction_mem.v|memory_stage.v|mux_2x1.v|mux_4x1.v|parameters.v|PC.v|SP.V|
 !i113 0
 Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z7 tCvgOpt 0
+vdata_memory
+R1
+!i10b 1
+!s100 ]2Qc69=zH8mNnhcd>YL6[1
+I>K>bVQ8oL2IV_MbC?:RXk1
+R2
+R0
+w1728217346
+8data_memory.v
+Fdata_memory.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 SP.V|PC.v|parameters.v|mux_4x1.v|mux_2x1.v|memory_stage.v|instruction_mem.v|HLT.v|fetch_stage.v|exception_detector.v|EPC.v|data_memory.v|adder.v|
+R5
+!i113 0
+R6
+R7
 vEPC
 R1
 !i10b 1
@@ -45,12 +66,54 @@ r1
 !s85 0
 31
 R4
-Z8 !s107 SP.V|PC.v|parameters.v|mux_4x1.v|mux_2x1.v|instruction_mem.v|HLT.v|EPC.v|adder.v|
+R8
 R5
 !i113 0
 R6
 R7
 n@e@p@c
+vexception_detector
+R1
+!i10b 1
+!s100 2YU3^d?ULiRI5g0G]@m@D1
+I4nckZ1H5;L_OZnF=mGdVk0
+R2
+R0
+w1728215488
+8exception_detector.v
+Fexception_detector.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vfetch_stage
+R1
+!i10b 1
+!s100 P0nN<]0`f:oTN5flfPf[e2
+Ijg]m1z2T7fTZKJXaf^Znh0
+R2
+R0
+w1728221164
+8fetch_stage.v
+Ffetch_stage.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
 vHLT
 R1
 !i10b 1
@@ -76,11 +139,11 @@ n@h@l@t
 vinstuction_memory
 R1
 !i10b 1
-!s100 n^S5cbRk9nc[h>fG4XJ:S0
-IEgA]XZSDIHk=4>FOTC>^K3
+!s100 jP>SI5BIkImBmkRG:TD;:3
+IKid]ldP]2`U5[h6XYGg@[1
 R2
 R0
-w1727721201
+w1728215533
 8instruction_mem.v
 Finstruction_mem.v
 L0 9
@@ -94,14 +157,35 @@ R5
 !i113 0
 R6
 R7
+vmemory_stage
+R1
+!i10b 1
+!s100 YN_dBUzE6P0fZkb8HUmC_1
+IAc^CEAK6mCQ=RY:ec^]8l2
+R2
+R0
+w1728223144
+8memory_stage.v
+Fmemory_stage.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
 vmux_2x1
 R1
 !i10b 1
-!s100 =n_:IUMji[A@i:8AU1n:E1
-I6LlXE@2`NFRFzAPFa6@nS2
+!s100 6OGZiVO>6lXE[CDeV5N6Y3
+IeF?F8>hIQZW@KF73:KP8S2
 R2
 R0
-w1727722266
+w1728221751
 8mux_2x1.v
 Fmux_2x1.v
 L0 7
@@ -118,11 +202,11 @@ R7
 vmux_4x1
 R1
 !i10b 1
-!s100 d`M1E_>6mGCVJ<Jd[SYPC3
-I_cW4J=HP`53SkIKlB1Fd]0
+!s100 mcP2=S4><[MmbW:H;b;zg2
+I><A_K:ZG;MAoVC_1QSd;[3
 R2
 R0
-w1727723184
+w1728221742
 8mux_4x1.v
 Fmux_4x1.v
 L0 7

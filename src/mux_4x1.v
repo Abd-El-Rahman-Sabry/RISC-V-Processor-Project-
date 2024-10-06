@@ -15,7 +15,7 @@ module mux_4x1 #(
     output wire [width-1:0] out
 );
     
-    assign out = control[1]?(control[0]? in1 : in2):(control[0]? in3 : in4);
+    assign out = control[1]?(control[0]? in4 : in3):(control[0]? in2 : in1);
 
 endmodule
 

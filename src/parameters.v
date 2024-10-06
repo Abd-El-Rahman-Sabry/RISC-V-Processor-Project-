@@ -10,5 +10,7 @@
 
     `define SP_WIDTH 32
 
+    `define RF_WIDTH 16
+
 
 `endif 
